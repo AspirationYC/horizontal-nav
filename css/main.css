@@ -1,7 +1,7 @@
 html {
-  background-color: #dbd6cf;
   box-sizing: border-box;
-  font-family: "Bervan", sans-serif;
+
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -9,11 +9,18 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #dbd6cf;
+  margin: 0;
+}
+
 h1 {
   color: #fff;
+  font-family: 'Bevan', sans-serif;
   font-weight: bold;
   text-align: center;
-  margin-bottom: .3em;
+  padding: .5em .75em;
+  margin: 0;
 }
 
 nav {
@@ -23,18 +30,22 @@ nav {
 
 .navbar {
   text-align: center;
-}
 
+}
 .navbar li {
+  display: inline-block;
+}
+.navbar a {
   background-color: #713837;
-  border-radius: 5px;
+  list-style-type: none;
+  font-weight: bold;
   color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
   display: inline-block;
   padding: .5em;
   text-align: center;
-
 }
-
-li:hover {
+a:hover {
   background-color: #f33;
 }
