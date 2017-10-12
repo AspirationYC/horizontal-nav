@@ -1,0 +1,40 @@
+html {
+  background-color: #dbd6cf;
+  box-sizing: border-box;
+  font-family: "Bervan", sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: .3em;
+}
+
+nav {
+  background-color: #79756f;
+  border: 1px solid #000;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar li {
+  background-color: #713837;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: .5em;
+  text-align: center;
+
+}
+
+li:hover {
+  background-color: #f33;
+}
