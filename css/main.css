@@ -16,19 +16,22 @@ body {
 h1 {
   color: #fff;
   font-family: Bevan, serif;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
-  padding: .5em .75em;
-  margin: 0;
+  padding: .6em;
+  margin-bottom: .3em;
+  margin-top: 0;
 }
 
 nav {
   background-color: #79756f;
-  border: 1px solid #000;
+  border-style: solid;
+  border-color: #000 #595652;
 }
 
 .navbar {
   text-align: center;
+  margin-top: .3em;
 
 }
 
@@ -44,8 +47,9 @@ nav {
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
-  padding: .5em;
   text-align: center;
+  padding: .3em;
+  margin-top: 0;
 }
 
 a:hover {
